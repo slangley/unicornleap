@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14573F4A1DE6835700EB5A72 /* TouchBarUnicornController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14573F491DE6835700EB5A72 /* TouchBarUnicornController.swift */; };
+		14573F4D1DE6916A00EB5A72 /* TinyUnicornViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14573F4C1DE6916A00EB5A72 /* TinyUnicornViewController.m */; };
+		14573F511DE6942A00EB5A72 /* babyUnicorn.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 14573F4E1DE693EA00EB5A72 /* babyUnicorn.png */; };
+		14573F521DE6942A00EB5A72 /* unicorn.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 14573F4F1DE693EA00EB5A72 /* unicorn.png */; };
+		146649771DE28BB40058C300 /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 146649761DE28BB40058C300 /* ApplicationDelegate.m */; };
+		1466497A1DE296090058C300 /* UnicornViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146649791DE296090058C300 /* UnicornViewController.m */; };
+		14D51FEB1DE53C9E0007FCE1 /* UnicornApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D51FEA1DE53C9E0007FCE1 /* UnicornApplication.swift */; };
 		9A2C9C6116E6D87400F945D4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2C9C6016E6D87400F945D4 /* QuartzCore.framework */; };
 		9A2C9C6316E6D87A00F945D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2C9C6216E6D87A00F945D4 /* Cocoa.framework */; };
 		9A2C9C6416E6D8B000F945D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C9C5D16E6D7EA00F945D4 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		14573F501DE6941A00EB5A72 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				14573F511DE6942A00EB5A72 /* babyUnicorn.png in CopyFiles */,
+				14573F521DE6942A00EB5A72 /* unicorn.png in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9ABBBE3A16E6D68B00E12E46 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -25,12 +43,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1416E6801DE2B38500A19DA1 /* unicornleap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "unicornleap-Bridging-Header.h"; sourceTree = "<group>"; };
+		14573F491DE6835700EB5A72 /* TouchBarUnicornController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchBarUnicornController.swift; sourceTree = "<group>"; };
+		14573F4B1DE6916A00EB5A72 /* TinyUnicornViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyUnicornViewController.h; sourceTree = "<group>"; };
+		14573F4C1DE6916A00EB5A72 /* TinyUnicornViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyUnicornViewController.m; sourceTree = "<group>"; };
+		14573F4E1DE693EA00EB5A72 /* babyUnicorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = babyUnicorn.png; sourceTree = "<group>"; };
+		14573F4F1DE693EA00EB5A72 /* unicorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unicorn.png; sourceTree = "<group>"; };
+		14573F531DE69A6F00EB5A72 /* sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparkle.png; sourceTree = "<group>"; };
+		146649721DE2793E0058C300 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146649751DE28BB40058C300 /* ApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationDelegate.h; sourceTree = "<group>"; };
+		146649761DE28BB40058C300 /* ApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationDelegate.m; sourceTree = "<group>"; };
+		146649781DE296090058C300 /* UnicornViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnicornViewController.h; sourceTree = "<group>"; };
+		146649791DE296090058C300 /* UnicornViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnicornViewController.m; sourceTree = "<group>"; };
+		14D51FEA1DE53C9E0007FCE1 /* UnicornApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnicornApplication.swift; sourceTree = "<group>"; };
 		9A2C9C5D16E6D7EA00F945D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9A2C9C5E16E6D7EA00F945D4 /* unicorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unicorn.png; sourceTree = "<group>"; };
 		9A2C9C5F16E6D7EA00F945D4 /* unicornleap.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = unicornleap.1; sourceTree = "<group>"; };
 		9A2C9C6016E6D87400F945D4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9A2C9C6216E6D87A00F945D4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		9ABBBE3C16E6D68B00E12E46 /* unicornleap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = unicornleap; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABBBE3C16E6D68B00E12E46 /* unicornleap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = unicornleap; path = unicornleap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,11 +79,23 @@
 		9ABBBE3316E6D68B00E12E46 = {
 			isa = PBXGroup;
 			children = (
+				14573F491DE6835700EB5A72 /* TouchBarUnicornController.swift */,
+				146649781DE296090058C300 /* UnicornViewController.h */,
+				146649791DE296090058C300 /* UnicornViewController.m */,
+				14573F4B1DE6916A00EB5A72 /* TinyUnicornViewController.h */,
+				14573F4C1DE6916A00EB5A72 /* TinyUnicornViewController.m */,
+				146649721DE2793E0058C300 /* Info.plist */,
 				9A2C9C5D16E6D7EA00F945D4 /* main.m */,
-				9A2C9C5E16E6D7EA00F945D4 /* unicorn.png */,
+				146649751DE28BB40058C300 /* ApplicationDelegate.h */,
+				146649761DE28BB40058C300 /* ApplicationDelegate.m */,
+				14D51FEA1DE53C9E0007FCE1 /* UnicornApplication.swift */,
 				9A2C9C5F16E6D7EA00F945D4 /* unicornleap.1 */,
+				14573F4E1DE693EA00EB5A72 /* babyUnicorn.png */,
+				14573F531DE69A6F00EB5A72 /* sparkle.png */,
+				14573F4F1DE693EA00EB5A72 /* unicorn.png */,
 				9ABBBE3E16E6D68B00E12E46 /* Frameworks */,
 				9ABBBE3D16E6D68B00E12E46 /* Products */,
+				1416E6801DE2B38500A19DA1 /* unicornleap-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +126,7 @@
 				9ABBBE3816E6D68B00E12E46 /* Sources */,
 				9ABBBE3916E6D68B00E12E46 /* Frameworks */,
 				9ABBBE3A16E6D68B00E12E46 /* CopyFiles */,
+				14573F501DE6941A00EB5A72 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -92,7 +135,7 @@
 			name = unicornleap;
 			productName = unicornleap;
 			productReference = 9ABBBE3C16E6D68B00E12E46 /* unicornleap */;
-			productType = "com.apple.product-type.tool";
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -102,6 +145,11 @@
 			attributes = {
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Joshua Davey";
+				TargetAttributes = {
+					9ABBBE3B16E6D68B00E12E46 = {
+						LastSwiftMigration = 0810;
+					};
+				};
 			};
 			buildConfigurationList = 9ABBBE3716E6D68B00E12E46 /* Build configuration list for PBXProject "unicornleap" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -125,7 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14D51FEB1DE53C9E0007FCE1 /* UnicornApplication.swift in Sources */,
+				14573F4D1DE6916A00EB5A72 /* TinyUnicornViewController.m in Sources */,
 				9A2C9C6416E6D8B000F945D4 /* main.m in Sources */,
+				146649771DE28BB40058C300 /* ApplicationDelegate.m in Sources */,
+				1466497A1DE296090058C300 /* UnicornViewController.m in Sources */,
+				14573F4A1DE6835700EB5A72 /* TouchBarUnicornController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,14 +243,31 @@
 		9ABBBE4916E6D68B00E12E46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.popcornlabs.unicornleap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "unicornleap-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		9ABBBE4A16E6D68B00E12E46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.popcornlabs.unicornleap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "unicornleap-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
